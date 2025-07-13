@@ -1,18 +1,23 @@
+import React from "react";
+import "./SpiderHero.css";
+
 const SpiderHero = () => {
   return (
     <div className="relative h-screen flex flex-col items-center justify-center bg-neutral-800 overflow-visible">
-      <div className="absolute w-[2px] h-[600px] bg-[#b9bdc2] left-1/2 -ml-[1px] top-[-250px] z-0"></div>
+      <div className="spidr-noise"></div>
+
+      <div className="absolute w-[2px] h-[600px] bg-[#b9bdc2] left-1/2 -translate-x-[1px] top-[-200px] z-10"></div>
 
       <img
         src="/images/spidr-logo.png"
-        alt="Spider"
+        alt="Spidr mascot"
         className="w-[6.85rem] z-10 relative"
       />
 
       <img
         src="/images/spidr-title.png"
-        alt="Spidr Title"
-        className=" -mt-[0.8rem] w-[6.5rem] z-10 relative"
+        alt="Spidr Design Title"
+        className="-mt-3 w-[6.5rem] z-10 relative"
       />
 
       <div className="absolute bottom-6 inset-x-0 mx-auto text-center animate-bounce z-10 w-fit">
@@ -22,6 +27,7 @@ const SpiderHero = () => {
           stroke="currentColor"
           strokeWidth="2"
           viewBox="0 0 24 24"
+          aria-hidden="true"
         >
           <path
             strokeLinecap="round"

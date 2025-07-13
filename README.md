@@ -23,7 +23,6 @@ A custom-built React application designed as a playful interest form for a ficti
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Font:** [Google Fonts - Raleway](https://fonts.google.com/specimen/Raleway)
 - **Animation:** Custom CSS transitions + `react-toastify`
-- **Deployment Ready**: Easily deployable via Vercel, Netlify, or GitHub Pages
 
 ---
 
@@ -37,8 +36,11 @@ A custom-built React application designed as a playful interest form for a ficti
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/spidr-interest-form.git
-cd spidr-interest-form
+git clone https://github.com/ChethasReddy/AirFryer-Form.git
 npm install
 npm run dev
 ```
+
+## Demo
+
+🔗 Live site: [https://air-fryer-form-pi.vercel.app/](https://air-fryer-form-pi.vercel.app/)

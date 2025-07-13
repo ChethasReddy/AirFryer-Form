@@ -1,12 +1,44 @@
-# React + Vite
+# 🕷️ Spidr Airfryer Interest Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A custom-built React application designed as a playful interest form for a fictitious air fryer launch by Spidr Design. This single-page form is styled closely to [Spidr Design's visual identity](https://spidr.design/), featuring animated UI, interactive components, and responsive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🕸️ **Spider Hero Section** with animated scroll cue and hanging logo
+- 🔄 **Flip Image**: Airfryer image flips on hover to show alternate view
+- 🎯 **Styled Interest Form**:
+  - Responsive two-column layout
+  - Auto-formatted 16-digit secret PIN (`####-####-####-####`)
+  - Instant success toast notification on form submission
+- 🎨 Fully themed with Tailwind CSS + custom Raleway font for brand accuracy
+- 💻 Console logs the full form data on submit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React](https://reactjs.org/) (with Vite)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Font:** [Google Fonts - Raleway](https://fonts.google.com/specimen/Raleway)
+- **Animation:** Custom CSS transitions + `react-toastify`
+- **Deployment Ready**: Easily deployable via Vercel, Netlify, or GitHub Pages
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 14.x
+- npm ≥ 6.x
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/spidr-interest-form.git
+cd spidr-interest-form
+npm install
+npm run dev
+```

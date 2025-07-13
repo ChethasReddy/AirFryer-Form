@@ -21,12 +21,16 @@
   flex-direction: column;
 }
 
-.name-froup {
+.name-group {
   display: flex;
-
   justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
 }
 
+.name-group label {
+  width: 48%;
+}
 @media (min-width: 768px) {
   .interest-form-container {
     flex-direction: row;
